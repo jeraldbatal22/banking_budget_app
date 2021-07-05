@@ -1,0 +1,96 @@
+.history_div {
+  flex: 40%;
+  width: 58%;
+  margin: 20px;
+  color: #fff;
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center;
+  flex: 50%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  flex-wrap: wrap;
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ;
+  padding: 20px;
+  border-radius: 30px;
+  align-items: center; */
+}
+
+.history_div h1 {
+  text-align: center;
+}
+
+.history_div select {
+  /* float: right; */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.history_div select option{
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+/* 
+.history_div .depost-history {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+} */
+
+.deposit-histoy {
+  margin: 30px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  color: #fff;
+}
+
+.deposit-histoy td, .deposit-histoy th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border: none;
+  text-align: center;
+}
+
+.deposit-histoy th {
+  text-align: left;
+  color: #F7B219;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  width: 20%;
+  text-transform: uppercase;
+}
+
+.deposit-histoy td {
+ color: #fff;
+}
+
+.no_data {
+  display: flex;
+  flex-direction: column;
+}
+/* 
+.pagination {
+  display: inline-block;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 280px;
+}
+
+.pagination td {
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+} */

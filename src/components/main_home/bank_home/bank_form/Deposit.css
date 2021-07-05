@@ -1,0 +1,55 @@
+.deposit_div {
+  flex: 40%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  padding: 20px;
+  border-radius: 30px;
+  margin: 20px;
+  align-items: center;
+}
+
+.deposit_div p {
+  margin-bottom: 40px;
+  width: 40%;
+  margin: auto;
+}
+
+.deposit_div label {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.deposit_div h1 {
+  font-size: 3.4rem;
+}
+
+.deposit_div .form-action button {
+  margin-top: 20px !important;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background: #f7b219;
+  font-weight: bolder;
+}
+
+.deposit_div .form-action input {
+  margin-top: 20px !important;
+  padding: 10px 20px;
+  margin: auto;
+  border-radius: 10px;
+  width: 100%;
+  /* background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem; */
+}
+
+.deposit_div .action-mybalance label {
+  font-size: 1.8rem;
+}

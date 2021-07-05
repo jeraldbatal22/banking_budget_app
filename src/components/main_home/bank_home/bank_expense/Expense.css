@@ -1,0 +1,77 @@
+.expense {
+  flex: 40%;
+  text-align: center;
+  color: #fff;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  padding: 20px;
+  border-radius: 30px;
+  margin: 20px;
+  height: 48vh;
+  /* flex: 50%;
+  width: 58%;
+  margin: 20px;
+  color: #fff;
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center; */
+}
+
+.expense h1 {
+  text-align: center;
+}
+
+.expense-action {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+.expense-action td,
+.expense-action th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border: none;
+}
+.expense-action td {
+  text-align: center;
+}
+
+.expense-action button {
+  font-size: 1.3rem;
+  padding: 5px 8px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.expense-action th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: none;
+  color: #f7b219;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  width: 30%;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.expense-action .editBtn {
+  color: green;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.expense-action .deleteBtn {
+  color: red;
+  font-size: 2rem;
+  cursor: pointer;
+}

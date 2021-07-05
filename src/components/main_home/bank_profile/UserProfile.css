@@ -1,0 +1,98 @@
+.user-profile {
+  text-align: center;
+  font-size: 1.4rem;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  border-radius: 30px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile .form_container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.user-profile .row_left {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.user-profile .row_right {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile form label {
+  color: #f7b219;
+  font-size: 2rem;
+}
+
+.user-profile .form_container input {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.user-profile .account_balance {
+  color: #fff;
+}
+.user-profile .account_balance h1 {
+  color: #f7b219;
+}
+
+.user-profile  h2 {
+  margin: 10px;
+  color: #ffff;
+}
+
+.profile_picture {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile_picture .edit_profile_icon {
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+.profile_picture .edit_profile_icon:hover {
+  color: #fff;
+}
+
+/* .profile_picture input {
+} */
+
+.profile_picture img {
+  width: 180px;
+  border-radius: 50%;
+}
+
+.profile_btn {
+  display: flex;
+  justify-content: center;
+}
+.profile_btn button {
+  margin: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color:#f7b219 ;
+  cursor: pointer;
+}

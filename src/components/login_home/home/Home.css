@@ -1,0 +1,69 @@
+.home {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+	font-family: 'Poppins',sans-serif;
+}
+
+.buttons button{
+	height: 50px;
+  padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 600;
+	background: #F7B219;
+	cursor: pointer;
+	border-radius: 25px;
+	transition: .4s;
+  border: none;
+  margin: 10px;
+}
+
+.home .center h1{
+	color: white;
+	font-size: 5.5rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px;
+}
+.home .center span {
+	color: #F7B219;
+}
+
+.home .center p{
+  color: #fff;
+	font-size: 1.2rem;
+	width: 70%;
+	margin:20px auto;
+
+}
+
+@media (max-width: 768px) { 
+	.home .center h1{
+		font-size: 3rem;
+		margin: 20px;
+	}
+}
+
+@media (max-width: 280px) { 
+	.buttons button {
+		margin:3px;
+	}
+}
+
+@media (max-width: 320px) { 
+	.buttons button {
+		margin:3px;
+	}
+}
+
+.center .buttons{
+	margin: 25px 35px;
+}
+
+.buttons button:hover{
+	background: #fff;
+}

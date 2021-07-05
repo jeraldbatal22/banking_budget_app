@@ -1,0 +1,24 @@
+.pagination {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+.pagination button {
+  font-size: 1rem;
+  color: #fff;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  cursor: pointer;
+  background: none;
+}
+
+.pagination button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination button:hover:not(.active) {background-color: #ddd;}

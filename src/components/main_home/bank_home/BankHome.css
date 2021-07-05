@@ -1,0 +1,14 @@
+.main_bank {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bank_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+  color: #f7b219;
+  text-align: center;
+}

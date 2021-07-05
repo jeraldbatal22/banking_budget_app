@@ -1,0 +1,16 @@
+.new-expense {
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.new-expense button {
+  cursor: pointer;
+  padding: 1rem 1rem;
+  border: 1px solid #40005d;
+  background: #F7B219;
+  color: #000;
+  border-radius: 12px;
+  margin-right: 1rem;
+  font-weight: bold;
+}

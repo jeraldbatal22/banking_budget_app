@@ -1,0 +1,65 @@
+.bank_button {
+  flex: 40%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  flex-wrap: wrap;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 20px;
+  align-items: center;
+  /* border: 2px solid #f7b219; */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  /* background: #f7b219; */
+}
+
+.card_top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_top svg {
+  font-size: 7rem;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.card_top svg:hover {
+  color: #f7b219;
+}
+
+.card_top h3 {
+  margin: 30px;
+  color: #f7b219;
+}
+
+.card_top button {
+  color: #fff;
+  background: none;
+  border: none;
+}
+
+.card_top button:hover {
+  color: #f7b219;
+}
+
+@media (max-width: 1024px) {
+  .cards_wrap .card_item {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards_wrap .card_item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 528px) {
+  .cards_wrap .card_item {
+    width: 100%;
+  }
+}

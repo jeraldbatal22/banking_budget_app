@@ -1,0 +1,119 @@
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 440px;
+  margin: auto;
+}
+
+.register{
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.register .title{
+  height: 90px;
+  background: #F7B219;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::selection{
+  background: #F7B219;
+}
+
+.register form{
+  padding-top: 25px;
+  margin: 10px;
+}
+
+.register form .row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.register form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 10px !important;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.register form .cancel {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 10px !important;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.register form .submit {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background: #F7B219;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #fff;
+}
+
+.register p {
+  color: red;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+form .button .cancel:hover{
+  color: #F7B219;
+}
+
+/* 
+
+.register form .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+.register form .signup-link button{
+  color: #F7B219;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 500px) { 
+	.container{
+		margin-bottom: 00px;
+	}
+} */
