@@ -7,7 +7,7 @@ React Js
 * He also does the withdrawal and deposit manually for each account.
 * He also does the transfer of balances if there are requests for it.
 
-See Live => https://banking-budget-app.herokuapp.com/
+See Live => https://github.com/jeraldbatal22/banking_budget_app
 
 ![image](https://user-images.githubusercontent.com/80327905/132608620-530956d8-daac-44fd-a13e-efbe158c00fe.png)
 
